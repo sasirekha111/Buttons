@@ -1,0 +1,32 @@
+<element name='neubutton' src='../../../../../../node_modules/neumorphism/button/button.hml'></element>
+<element name='neubuttons' src='../../../../../../node_modules/neumorphism/buttons/buttons.hml'></element>
+<element name='neutheme' src='../../../../../../node_modules/neumorphism/theme/theme.hml'></element>
+
+<neutheme class="container" theme="" color="">
+    <text class='title'>
+        Single Button With Icon
+    </text>
+    <neubutton icon="common/heart.png" width="250px" height="60px" border="50px" onclick="buttonClick">
+        <text>Button</text>
+    </neubutton>
+    <text class='title'>
+        Single Button Without Icon
+    </text>
+    <neubutton width="250px" height="60px" border="50px" onclick="buttonClick">
+        <text>Button</text>
+    </neubutton>
+    <text class='title'>
+        Double Button With Icon
+    </text>
+    <neubuttons  width="250px" height="60px" border="50px">
+        <image slot="first" src="common/heart.png" style="height: 30px; width: 30px;" onclick="buttonClick"></image>
+        <image slot="second" src="common/return.png" style="height: 30px; width: 30px;" onclick="buttonClick"></image>
+    </neubuttons>
+    <text class='title'>
+        Double Button Without Icon
+    </text>
+    <neubuttons  width="250px" height="60px" border="50px">
+        <button slot="first" onclick="buttonClick">Left</button>
+        <button slot="second" onclick="buttonClick">Right</button>
+    </neubuttons>
+</neutheme>
