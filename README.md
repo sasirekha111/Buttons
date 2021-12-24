@@ -58,3 +58,9 @@ Usage:
   <button slot="second">Right</button>
 </neubuttons>
 ```
+
+# Reference:
+
+<a href="https://neumorphism.io/">neumorphism.io</a>
+
+<a href="https://ismail9k.github.io/neomorphism/">ismail9k.github.io/neomorphism</a>
