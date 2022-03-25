@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           LANG: JS
-        uses: sasirekha111/HarmonyOs-build@v10.5
+        uses: sasirekha111/HarmonyOs-build@10.5
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with: 
