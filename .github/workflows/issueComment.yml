@@ -2,7 +2,6 @@ name: "Test issue comments"
 on:
   issue_comment:
     types: [created]
-
 jobs:
   execute:
     runs-on: ubuntu-latest
